@@ -1,0 +1,13 @@
+name: md2img
+version: 0.1.1
+description: >
+  md2img CLI tool, that render Markdown / PDF to images (PNG, and others)
+author: Haruka Sato <as.he.that.doth.serve@gmail.com>
+homepage: https://pkg.dev-pack.org/dart/md2img
+repository: https://github.com/halka9000stg/md2img.git
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+dependencies:
+  docx_creator: ^1.4.0
+  dpdf: ^1.0.0
+  image: ^4.12.0
